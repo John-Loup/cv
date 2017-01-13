@@ -53,6 +53,12 @@ $('.scrollTo').on('click', function () {
     return false;
 });
 
+$('.scrollTo2').on('click', function () {
+    var target = $(this).attr('href');
+    $('html, body').animate({scrollTop: $(target).offset().top}, 750);
+    return false;
+});
+
 $('#scrollTo').on('click', function () {
     var tgt2 = $(this).attr('href');
     $('html, body').animate({scrollTop: $(tgt2).offset().top}, 750);
@@ -79,5 +85,26 @@ $('.tlt').textillate({
         effect: 'rollIn',
         shuffle: true,
         delay: 100
+    }
+});
+
+// ---------------------------------------------
+// SIDEBAR
+
+var button = document.querySelector('.respMenu');
+var sidebar = document.querySelector('#sidebar');
+var sidebarOpen = false;
+
+button.addEventListener('click', function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+    sidebar.classList.add('sidebar');
+    sidebarOpen = true;
+});
+
+document.body.addEventListener('click', function () {
+    if (sidebarOpen) {
+        sidebar.classList.remove('sidebar');
+        sidebarOpen = false;
     }
 });
