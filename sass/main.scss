@@ -45,11 +45,10 @@ a {
 
 .nameIntro {
   z-index: 10;
-  margin: 0 45% 0 0;
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 66px;
 }
 
 .pau {
@@ -57,22 +56,22 @@ h1 {
 }
 
 .jl {
-  margin-left: 100px;
+  margin-left: 160px;
   font-size: 36px;
-  color: $rouge;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
   padding-bottom: 60px;
-  margin: 40px 45% 0 0;
-
+  margin: 40px 0 0 0;
+  color: #fff !important;
+  text-shadow: 0 0 3px #333 !important;
 }
 
 h1,
 h2 {
   z-index: 10;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 0 0 3px rgba(255, 255, 255, .8);
   color: $gris59;
 }
 
@@ -84,7 +83,7 @@ nav {
   z-index: 2;
   font-family: 'mainfont';
   height: 60px;
-  background: rgba(211,60,68, .8);
+  background: rgba(208,44,52, .8);
   -webkit-transition: background .5s ease;
   transition: background .5s ease;
   box-shadow: 1px 1px .2em rgba(1, 1, 1, 0);
@@ -130,7 +129,7 @@ nav.fixed a {
   color: #2C2C2C;
   border-left: 1px solid #2C2C2C;
   padding: 10px 30px;
-  text-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  //text-shadow: 0 0 0 rgba(255, 255, 255, 0);
 }
 
 nav.fixed a:hover {
