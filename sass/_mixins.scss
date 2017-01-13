@@ -1,0 +1,52 @@
+@mixin links ($link, $visited, $hover, $active) {
+  & {
+    color: $link;
+    &:visited {
+      color: $visited;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active, &:focus {
+      color: $active;
+    }
+  }
+}
+
+@mixin screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+@mixin zero {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin auto {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+@mixin flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
