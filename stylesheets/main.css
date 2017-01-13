@@ -583,31 +583,36 @@ footer p:last-child:hover {
 
 @media screen and (max-width: 360px) {
   /* line 481, ../sass/main.scss */
+  #intro {
+    background: #fff;
+  }
+
+  /* line 485, ../sass/main.scss */
   h1 {
     font-size: 36px;
   }
 
-  /* line 485, ../sass/main.scss */
+  /* line 489, ../sass/main.scss */
   h2 {
     font-size: 18px;
   }
 
-  /* line 489, ../sass/main.scss */
+  /* line 493, ../sass/main.scss */
   .jl,
   .pau {
     margin: auto;
   }
 
-  /* line 494, ../sass/main.scss */
+  /* line 498, ../sass/main.scss */
   nav {
     background: transparent;
   }
-  /* line 497, ../sass/main.scss */
+  /* line 501, ../sass/main.scss */
   nav a {
     display: none;
   }
 
-  /* line 502, ../sass/main.scss */
+  /* line 506, ../sass/main.scss */
   #sidebar {
     background: #d33c44;
   }
