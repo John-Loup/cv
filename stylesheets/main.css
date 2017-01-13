@@ -581,59 +581,34 @@ footer p:last-child:hover {
   padding-top: 40px;
 }
 
-/*@media screen and (max-width: 1040px) {
-
-  #intro {
-    text-align: center;
+@media screen and (max-width: 360px) {
+  /* line 481, ../sass/main.scss */
+  h1 {
+    font-size: 36px;
   }
 
-}
+  /* line 485, ../sass/main.scss */
+  h2 {
+    font-size: 18px;
+  }
 
-@media screen and (max-width: 1024px) {
+  /* line 489, ../sass/main.scss */
+  .jl,
+  .pau {
+    margin: auto;
+  }
 
+  /* line 494, ../sass/main.scss */
+  nav {
+    background: transparent;
+  }
+  /* line 497, ../sass/main.scss */
   nav a {
     display: none;
   }
 
-}
-
-@media screen and (max-width: 810px) {
-
-  nav a {
-    display: none;
+  /* line 502, ../sass/main.scss */
+  #sidebar {
+    background: #d33c44;
   }
-
 }
-
-@media screen and (max-width: 870px) {
-
-  .divider {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 440px) {
-
-  h1,
-  h2 {
-    display: none;
-  }
-
-}
-
-@media screen and (max-height: 540px) {
-
-  .mDown {
-    display: none;
-  }
-
-}
-
-@media screen and (max-height: 350px) {
-
-  h2 {
-    display: none;
-  }
-
-}*/

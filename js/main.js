@@ -73,8 +73,7 @@ var introBG = document.querySelector('.parallax');
 window.addEventListener('scroll', doParallax);
 function doParallax() {
     var positionY = (window.pageYOffset) / 3;
-
-    introBG.style.backgroundPosition = "center -" + positionY + "px";
+    introBG.style.backgroundPosition = "0 -" + positionY + "px";
 }
 
 // --------------------------------------------

@@ -477,61 +477,29 @@ footer {
 
 // --------------------- MEDIA QUERIES
 
-/*@media screen and (max-width: 1040px) {
-
-  #intro {
-    text-align: center;
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 36px;
   }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-  nav a {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 810px) {
-
-  nav a {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 870px) {
-
-  .divider {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 440px) {
-
-  h1,
-  h2 {
-    display: none;
-  }
-
-}
-
-@media screen and (max-height: 540px) {
-
-  .mDown {
-    display: none;
-  }
-
-}
-
-@media screen and (max-height: 350px) {
 
   h2 {
-    display: none;
+    font-size: 18px;
   }
 
-}*/
+  .jl,
+  .pau {
+    margin: auto;
+  }
 
+  nav {
+    background: rgba(0, 0, 0, 0);
 
+      a {
+        display: none;
+      }
+  }
+
+  #sidebar {
+    background: $rouge2;
+  }
+}
