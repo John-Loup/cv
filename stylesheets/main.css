@@ -641,45 +641,49 @@ footer p:last-child:hover {
   /* line 531, ../sass/main.scss */
   nav,
   #scrollTo,
-  .respMenu,
-  #sidebar {
+  .respMenu {
     display: none;
   }
 
-  /* line 538, ../sass/main.scss */
+  /* line 537, ../sass/main.scss */
+  #sidebar {
+    position: fixed;
+  }
+
+  /* line 541, ../sass/main.scss */
   .divider {
     display: none;
   }
 
-  /* line 542, ../sass/main.scss */
+  /* line 545, ../sass/main.scss */
   .svgContainer {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 547, ../sass/main.scss */
+  /* line 550, ../sass/main.scss */
   .animation-element {
     width: 80px;
   }
 
-  /* line 551, ../sass/main.scss */
+  /* line 554, ../sass/main.scss */
   .imgCont {
     display: block;
     margin: 0;
     padding: 0;
   }
-  /* line 556, ../sass/main.scss */
+  /* line 559, ../sass/main.scss */
   .imgCont .img {
     display: block;
     margin-bottom: 40px;
   }
 
-  /* line 562, ../sass/main.scss */
+  /* line 565, ../sass/main.scss */
   footer {
     height: auto;
   }
 
-  /* line 566, ../sass/main.scss */
+  /* line 569, ../sass/main.scss */
   #cv {
     padding-bottom: 20px;
   }

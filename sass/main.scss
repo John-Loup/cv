@@ -530,9 +530,12 @@ footer {
   }*/
   nav,
   #scrollTo,
-  .respMenu,
-  #sidebar {
+  .respMenu {
     display: none;
+  }
+
+  #sidebar {
+    position: fixed;
   }
 
   .divider {
