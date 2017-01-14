@@ -325,7 +325,6 @@ h4 {
 
 .animation-element {
   width: 120px;
-  border-radius: 15px;
   background: rgb(247, 247, 245);
   opacity: 0;
   -webkit-transform: rotate(-180deg);
@@ -607,5 +606,23 @@ footer {
 
   .svgContainer {
     width: 100%;
+  }
+
+  .animation-element {
+    width: 80px;
+    background: rgb(247, 247, 245);
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .75s ease-out;
+    transition: all .75s ease-out;
+  }
+
+  .in-view {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all .75s ease-out;
+    transition: all .75s ease-out;
   }
 }
