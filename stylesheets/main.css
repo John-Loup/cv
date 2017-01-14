@@ -585,26 +585,31 @@ footer p:last-child:hover {
 
 @media screen and (max-width: 360px) {
   /* line 483, ../sass/main.scss */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* line 487, ../sass/main.scss */
   #intro {
     background: #fff;
   }
 
-  /* line 487, ../sass/main.scss */
+  /* line 491, ../sass/main.scss */
   h1 {
     font-size: 36px;
   }
 
-  /* line 491, ../sass/main.scss */
+  /* line 495, ../sass/main.scss */
   h2 {
     font-size: 18px;
   }
 
-  /* line 494, ../sass/main.scss */
+  /* line 498, ../sass/main.scss */
   .jl {
     color: #d33c44;
   }
 
-  /* line 498, ../sass/main.scss */
+  /* line 502, ../sass/main.scss */
   .jl,
   .pau {
     margin: auto;
@@ -638,52 +643,48 @@ footer p:last-child:hover {
     position: fixed;
     z-index: 1200;
   }*/
-  /* line 531, ../sass/main.scss */
+  /* line 535, ../sass/main.scss */
   nav,
   #scrollTo,
-  .respMenu {
+  .respMenu,
+  #sidebar {
     display: none;
   }
 
-  /* line 537, ../sass/main.scss */
-  #sidebar {
-    position: fixed;
-  }
-
-  /* line 541, ../sass/main.scss */
+  /* line 542, ../sass/main.scss */
   .divider {
     display: none;
   }
 
-  /* line 545, ../sass/main.scss */
+  /* line 546, ../sass/main.scss */
   .svgContainer {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 550, ../sass/main.scss */
+  /* line 551, ../sass/main.scss */
   .animation-element {
     width: 80px;
   }
 
-  /* line 554, ../sass/main.scss */
+  /* line 555, ../sass/main.scss */
   .imgCont {
     display: block;
     margin: 0;
     padding: 0;
   }
-  /* line 559, ../sass/main.scss */
+  /* line 560, ../sass/main.scss */
   .imgCont .img {
     display: block;
     margin-bottom: 40px;
   }
 
-  /* line 565, ../sass/main.scss */
+  /* line 566, ../sass/main.scss */
   footer {
     height: auto;
   }
 
-  /* line 569, ../sass/main.scss */
+  /* line 570, ../sass/main.scss */
   #cv {
     padding-bottom: 20px;
   }

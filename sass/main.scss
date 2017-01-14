@@ -480,6 +480,10 @@ footer {
 // --------------------- MEDIA QUERIES
 
 @media screen and (max-width: 360px) {
+  body {
+    overflow-x: hidden;
+  }
+
   #intro {
     background: #fff;
   }
@@ -530,12 +534,9 @@ footer {
   }*/
   nav,
   #scrollTo,
-  .respMenu {
-    display: none;
-  }
-
+  .respMenu,
   #sidebar {
-    position: fixed;
+    display: none;
   }
 
   .divider {
