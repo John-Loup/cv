@@ -610,75 +610,74 @@ footer p:last-child:hover {
     margin: auto;
   }
 
-  /* line 503, ../sass/main.scss */
-  nav {
-    background: transparent;
+  /*nav {
+    background: rgba(0, 0, 0, 0);
     z-index: -100;
-  }
-  /* line 506, ../sass/main.scss */
-  nav a {
-    display: none;
+      a {
+        display: none;
+      }
   }
 
-  /* line 511, ../sass/main.scss */
   .fixed {
-    background: transparent !important;
-    box-shadow: 0 0 0 transparent !important;
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
   }
 
-  /* line 516, ../sass/main.scss */
   #sidebar {
     display: block;
     position: fixed;
-    background: #d33c44;
+    background: $rouge2;
   }
 
-  /* line 522, ../sass/main.scss */
   #scrollTo {
     display: none;
   }
 
-  /* line 526, ../sass/main.scss */
   .respMenu {
     display: block;
     position: fixed;
     z-index: 1200;
+  }*/
+  /* line 532, ../sass/main.scss */
+  nav,
+  #scrollTo {
+    display: none;
   }
 
-  /* line 532, ../sass/main.scss */
+  /* line 537, ../sass/main.scss */
   .divider {
     display: none;
   }
 
-  /* line 536, ../sass/main.scss */
+  /* line 541, ../sass/main.scss */
   .svgContainer {
     width: 100%;
     margin: 0 auto;
   }
 
-  /* line 541, ../sass/main.scss */
+  /* line 546, ../sass/main.scss */
   .animation-element {
     width: 80px;
   }
 
-  /* line 545, ../sass/main.scss */
+  /* line 550, ../sass/main.scss */
   .imgCont {
     display: block;
     margin: 0;
     padding: 0;
   }
-  /* line 550, ../sass/main.scss */
+  /* line 555, ../sass/main.scss */
   .imgCont .img {
     display: block;
     margin-bottom: 40px;
   }
 
-  /* line 556, ../sass/main.scss */
+  /* line 561, ../sass/main.scss */
   footer {
     height: auto;
   }
 
-  /* line 560, ../sass/main.scss */
+  /* line 565, ../sass/main.scss */
   #cv {
     padding-bottom: 20px;
   }
