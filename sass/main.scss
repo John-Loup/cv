@@ -148,6 +148,7 @@ nav.fixed + .content {
 }
 
 .respMenu {
+  display: none;
   position: absolute;
   right: 70px;
   bottom: 0;
@@ -169,6 +170,7 @@ nav.fixed + .content {
 }
 
 #sidebar {
+  display: none;
   position: absolute;
   top: 0;
   right: -200px;
@@ -489,6 +491,9 @@ footer {
   h2 {
     font-size: 18px;
   }
+  .jl {
+    color: $rouge2;
+  }
 
   .jl,
   .pau {
@@ -497,13 +502,62 @@ footer {
 
   nav {
     background: rgba(0, 0, 0, 0);
-
+    z-index: -100;
       a {
         display: none;
       }
   }
 
+  .fixed {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+
   #sidebar {
+    display: block;
+    position: fixed;
     background: $rouge2;
+  }
+
+  #scrollTo {
+    display: none;
+  }
+
+  .respMenu {
+    display: block;
+    position: fixed;
+    z-index: 1200;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .svgContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .animation-element {
+    width: 80px;
+  }
+
+  .imgCont {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+      .img {
+        display: block;
+        margin-bottom: 40px;
+      }
+  }
+
+  footer {
+    height: auto;
+  }
+
+  #cv {
+    padding-bottom: 20px;
   }
 }
