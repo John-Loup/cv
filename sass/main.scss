@@ -13,6 +13,16 @@ $navcolor: rgba(208, 44, 52, .8);
 
 // ----------------> STYLES
 
+::-moz-selection {
+  color: white;
+  background: #d44047;
+}
+
+::selection {
+  color: white;
+  background: #d44047;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -384,7 +394,7 @@ h4 {
   box-shadow: 1px 1px 3px #333;
 
   &:hover {
-    opacity: .6;
+    opacity: .7;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 
@@ -407,28 +417,34 @@ h4 {
     margin: 30% 0;
     padding: 10% 0;
     border-radius: 15px;
+    box-shadow: 0 0 50px #fff;
 
     &:hover {
-      opacity: .8;
+      opacity: 1;
       -webkit-transition: all .5s ease;
       transition: all .5s ease;
     }
   }
 
   p {
+    font-weight: 600;
     opacity: 0;
     text-align: center;
     padding: 20px 0;
     font-family: 'mainfont';
-    color: $rouge;
-    text-shadow: 0 0 2px #fff;
+    color: #000;
+    text-shadow: 0 0 1px #fff;
     -webkit-transition: opacity .5s ease;
     transition: opacity .5s ease;
+
+      span {
+        color: $rouge;
+      }
   }
 }
 
 .img1 {
-  background: url("../images/donut.jpg") center;
+  background: url("../images/upto.jpg") center;
   background-size: cover;
 
 }
@@ -444,12 +460,12 @@ h4 {
 }
 
 .img4 {
-  background: url("../images/obsidian.jpg") center;
+  background: url("../images/donut.jpg") center;
   background-size: cover;
 }
 
 .img5 {
-  background: url("../images/obsidian2.jpg") center;
+  background: url("../images/obsidian.jpg") center;
   background-size: cover;
 }
 
@@ -645,7 +661,7 @@ footer {
   }
 
   .animation-element {
-    width: 80px;
+    width: 90px;
     background: rgb(247, 247, 245);
     opacity: 0;
     -webkit-transform: rotate(0deg);
